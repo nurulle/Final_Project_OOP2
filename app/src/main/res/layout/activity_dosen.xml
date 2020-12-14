@@ -52,6 +52,13 @@
             android:layout_height="wrap_content"
             android:text="Tambah Data"
             />
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus Data"
+            />
         <TextView
             android:id="@+id/hasil"
             android:layout_width="match_parent"

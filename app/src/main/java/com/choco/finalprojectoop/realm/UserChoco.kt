@@ -6,8 +6,8 @@ import io.realm.annotations.RealmClass
 @RealmClass
 open class UserChoco : RealmObject()  {
     private var id:Int = 0
-    private var nim: String = ""
-    private var jurusan: String = ""
+    private var nipy: String = ""
+    private var nama: String = ""
 
     fun setId(id:Int){
         this.id = id
@@ -18,21 +18,21 @@ open class UserChoco : RealmObject()  {
 
     }
 
-    fun setNim(nim:String){
-        this.nim = nim
+    fun setNipy(nipy:String){
+        this.nipy = nipy
     }
 
-    fun getNim(): String {
-        return nim
+    fun getNipy(): String {
+        return nipy
 
     }
 
-    fun setJurusan(jurusan:String){
-        this.jurusan = jurusan
+    fun setNama(nama:String){
+        this.nama = nama
     }
 
-    fun getJurusan(): String {
-        return jurusan
+    fun getNama(): String {
+        return nama
 
     }
 
